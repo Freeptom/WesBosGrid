@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/grid.css">
   <link rel="stylesheet" href="../assets/style.css">
   <title>Using minmax() for Responsive Grids!</title>
 </head>
@@ -21,8 +22,8 @@
       display: grid;
       grid-gap: 20px;
       border: 10px solid var(--yellow);
-      /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
-      grid-template-columns: fit-content(100px) 150px 150px 150px;
+      /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+      grid-template-columns: fit-content(10px) 150px 150px 150px;
     }
   </style>
 </body>
